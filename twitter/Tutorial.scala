@@ -38,10 +38,10 @@ object Tutorial {
 
 
     // Configure Twitter credentials
-    val apiKey = "sxFS1fDGzLnHiJRFBj1aVoeIk"
-    val apiSecret = "XXNxbEWCYFuAGmsHkSM30wdTs8ndMLIgo7vKT2iYk5eyCWJzh2"
-    val accessToken = "4352160262-VX2emCu8MjEWFEhKoIJ9toJ5eB2n2Be6BKwchPW"
-    val accessTokenSecret = "2BKwdQptKGMwB3tngBH7GkIq8WVdPZYM0NcHAKSdEK1M8"
+    val apiKey = ""
+    val apiSecret = ""
+    val accessToken = ""
+    val accessTokenSecret = ""
 
     TutorialHelper.configureTwitterCredentials(apiKey, apiSecret, accessToken, accessTokenSecret)
     // Your code goes here
