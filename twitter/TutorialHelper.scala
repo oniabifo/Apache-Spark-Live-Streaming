@@ -7,9 +7,6 @@ import org.apache.log4j.Logger
 import org.apache.log4j.Level 
 import sys.process.stringSeqToProcess 
 object TutorialHelper {
-  //Logger.getLogger("org.apache.spark").setLevel(Level.WARN)
-  //Logger.getLogger("org.apache.spark.storage.BlockManager").setLevel(Level.ERROR)
-    
   /** Configures the Oauth Credentials for accessing Twitter */
   def configureTwitterCredentials(apiKey: String, apiSecret: String, accessToken: String, accessTokenSecret: String) {
     val configs = new HashMap[String, String] ++= Seq(
